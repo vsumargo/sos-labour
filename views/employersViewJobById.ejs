@@ -4,10 +4,10 @@
 
 
 <div class="row">
-    <div class="col-2" id="sidebarCol">
+    <div class="col-sm-2" id="sidebarCol">
         <%- include('partials/sidebar' , {highlightDashboard: '', highlightViewJob: 'highlight', highlightPostJob:'', name: `${name}`}) %>
     </div>
-        <main class="col-7 post-new-job-col" id="mainCol">
+        <main class="col-sm-7 post-new-job-col" id="mainCol">
         
         
     <%_ if(job.job_status == 'open'){ _%>
@@ -71,7 +71,7 @@
                 </form>
             </div>
         </main>
-        <aside class="col-3" id="list-of-applicants-col">
+        <aside class="col-sm-3" id="list-of-applicants-col">
             <div class="list-of-applicants-card">
                 <div>List of Applicants <span><button id="choseApplicantsButton">Choose Applicants</button></span></div>
                 <br>
@@ -172,7 +172,7 @@
                 </form>
             </div>
         </main>
-        <aside class="col-3" id="list-of-applicants-col">
+        <aside class="col-sm-3" id="list-of-applicants-col">
             <div class="list-of-applicants-card">
                 <div>List of Applicants </div>
                 <br>
